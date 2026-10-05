@@ -51,7 +51,7 @@ elif soil == "RR_A":
     ft =  pd.read_csv(r"~/code/python/artigoaj/rr_a_w.txt", delim_whitespace = True)
 
 else:
-    print("SHITS FUCKED YO")
+    print("Error")
 
 ft['psi'] = ft['psi']*10
 
